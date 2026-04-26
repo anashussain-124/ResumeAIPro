@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    mongodb_uri: str = "mongodb+srv://anashussain7075020_admin:PAssword123@cluster0.6zojzfx.mongodb.net/?appName=Cluster0"
+    mongodb_uri: str = "mongodb://localhost:27017/resume_builder"
     openai_api_key: str = ""
     frontend_url: str = "http://localhost:3000"
     
